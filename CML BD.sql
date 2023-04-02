@@ -339,10 +339,7 @@ create database CML
 select * from Puesto
 
 /* 
-
-Id_Empleado int,
-foreign key (Id_Empleado) references Empleado(Id_Empleado),
-
+Esta BD es la de 15 tablas, los datos anteriores es todo el system
 
 */
 
