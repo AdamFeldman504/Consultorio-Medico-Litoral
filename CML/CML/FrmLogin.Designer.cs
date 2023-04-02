@@ -187,7 +187,7 @@
             this.pictureBox6.TabIndex = 82;
             this.pictureBox6.TabStop = false;
             // 
-            // Login
+            // FrmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -203,7 +203,7 @@
             this.Controls.Add(this.lblUsuario);
             this.Controls.Add(this.btnIngresar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Login";
+            this.Name = "FrmLogin";
             this.Text = "Consultorio Medico Litoral";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
