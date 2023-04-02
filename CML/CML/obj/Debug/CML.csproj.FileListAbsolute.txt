@@ -3,9 +3,11 @@ C:\Users\adamm\OneDrive\Documents\MEGA\Práctica Litoral\Consultorio-Medico-Lito
 C:\Users\adamm\OneDrive\Documents\MEGA\Práctica Litoral\Consultorio-Medico-Litoral\CML\CML\bin\Debug\CML.pdb
 C:\Users\adamm\OneDrive\Documents\MEGA\Práctica Litoral\Consultorio-Medico-Litoral\CML\CML\obj\Debug\CML.csproj.AssemblyReference.cache
 C:\Users\adamm\OneDrive\Documents\MEGA\Práctica Litoral\Consultorio-Medico-Litoral\CML\CML\obj\Debug\CML.csproj.SuggestedBindingRedirects.cache
-C:\Users\adamm\OneDrive\Documents\MEGA\Práctica Litoral\Consultorio-Medico-Litoral\CML\CML\obj\Debug\CML.Login.resources
 C:\Users\adamm\OneDrive\Documents\MEGA\Práctica Litoral\Consultorio-Medico-Litoral\CML\CML\obj\Debug\CML.Properties.Resources.resources
 C:\Users\adamm\OneDrive\Documents\MEGA\Práctica Litoral\Consultorio-Medico-Litoral\CML\CML\obj\Debug\CML.csproj.GenerateResource.cache
 C:\Users\adamm\OneDrive\Documents\MEGA\Práctica Litoral\Consultorio-Medico-Litoral\CML\CML\obj\Debug\CML.csproj.CoreCompileInputs.cache
 C:\Users\adamm\OneDrive\Documents\MEGA\Práctica Litoral\Consultorio-Medico-Litoral\CML\CML\obj\Debug\CML.exe
 C:\Users\adamm\OneDrive\Documents\MEGA\Práctica Litoral\Consultorio-Medico-Litoral\CML\CML\obj\Debug\CML.pdb
+C:\Users\adamm\OneDrive\Documents\MEGA\Práctica Litoral\Consultorio-Medico-Litoral\CML\CML\obj\Debug\CML.FrmBitacora.resources
+C:\Users\adamm\OneDrive\Documents\MEGA\Práctica Litoral\Consultorio-Medico-Litoral\CML\CML\obj\Debug\CML.FrmLogin.resources
+C:\Users\adamm\OneDrive\Documents\MEGA\Práctica Litoral\Consultorio-Medico-Litoral\CML\CML\obj\Debug\CML.FrmMenu.resources
