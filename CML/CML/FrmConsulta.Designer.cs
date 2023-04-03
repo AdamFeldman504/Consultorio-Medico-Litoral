@@ -1,6 +1,6 @@
 ﻿namespace CML
 {
-    partial class Consulta
+    partial class FrmConsulta
     {
         /// <summary>
         /// Required designer variable.
@@ -28,19 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Consulta));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmConsulta));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.btnSalir = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.dtpFecha = new System.Windows.Forms.DateTimePicker();
-            this.pbEmpleado = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.txtEdad = new System.Windows.Forms.TextBox();
@@ -84,13 +79,20 @@
             this.btnBorrar = new System.Windows.Forms.Button();
             this.btnActualizar = new System.Windows.Forms.Button();
             this.btnAgregar = new System.Windows.Forms.Button();
+            this.pbEmpleado = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.btnSalir = new System.Windows.Forms.PictureBox();
+            this.label26 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
+            this.gbOpciones.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbEmpleado)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnSalir)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbEmpleado)).BeginInit();
-            this.gbOpciones.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -108,27 +110,6 @@
             this.panel1.Size = new System.Drawing.Size(1303, 53);
             this.panel1.TabIndex = 92;
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(12, 5);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(44, 40);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 97;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(1206, 8);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(40, 40);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 136;
-            this.pictureBox1.TabStop = false;
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -139,28 +120,6 @@
             this.label4.Size = new System.Drawing.Size(192, 40);
             this.label4.TabIndex = 135;
             this.label4.Text = "CONSULTA";
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(1252, 5);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(44, 40);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 82;
-            this.pictureBox6.TabStop = false;
-            // 
-            // btnSalir
-            // 
-            this.btnSalir.Image = ((System.Drawing.Image)(resources.GetObject("btnSalir.Image")));
-            this.btnSalir.Location = new System.Drawing.Point(1675, 13);
-            this.btnSalir.Margin = new System.Windows.Forms.Padding(4, 7, 4, 7);
-            this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(33, 33);
-            this.btnSalir.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.btnSalir.TabIndex = 81;
-            this.btnSalir.TabStop = false;
             // 
             // label1
             // 
@@ -178,10 +137,10 @@
             this.txtNombre.BackColor = System.Drawing.Color.White;
             this.txtNombre.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNombre.ForeColor = System.Drawing.Color.Black;
-            this.txtNombre.Location = new System.Drawing.Point(248, 148);
+            this.txtNombre.Location = new System.Drawing.Point(231, 148);
             this.txtNombre.Margin = new System.Windows.Forms.Padding(4);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(636, 32);
+            this.txtNombre.Size = new System.Drawing.Size(497, 32);
             this.txtNombre.TabIndex = 140;
             // 
             // label5
@@ -213,14 +172,6 @@
             this.dtpFecha.Size = new System.Drawing.Size(291, 27);
             this.dtpFecha.TabIndex = 142;
             // 
-            // pbEmpleado
-            // 
-            this.pbEmpleado.Location = new System.Drawing.Point(1146, 61);
-            this.pbEmpleado.Name = "pbEmpleado";
-            this.pbEmpleado.Size = new System.Drawing.Size(135, 133);
-            this.pbEmpleado.TabIndex = 143;
-            this.pbEmpleado.TabStop = false;
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -235,7 +186,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(891, 157);
+            this.label6.Location = new System.Drawing.Point(1007, 151);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(68, 23);
             this.label6.TabIndex = 146;
@@ -246,10 +197,10 @@
             this.txtEdad.BackColor = System.Drawing.Color.White;
             this.txtEdad.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEdad.ForeColor = System.Drawing.Color.Black;
-            this.txtEdad.Location = new System.Drawing.Point(966, 148);
+            this.txtEdad.Location = new System.Drawing.Point(1080, 142);
             this.txtEdad.Margin = new System.Windows.Forms.Padding(4);
             this.txtEdad.Name = "txtEdad";
-            this.txtEdad.Size = new System.Drawing.Size(81, 32);
+            this.txtEdad.Size = new System.Drawing.Size(59, 32);
             this.txtEdad.TabIndex = 147;
             // 
             // txtIdentidad
@@ -650,12 +601,87 @@
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
             // 
+            // pbEmpleado
+            // 
+            this.pbEmpleado.Location = new System.Drawing.Point(1146, 61);
+            this.pbEmpleado.Name = "pbEmpleado";
+            this.pbEmpleado.Size = new System.Drawing.Size(135, 133);
+            this.pbEmpleado.TabIndex = 143;
+            this.pbEmpleado.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(12, 5);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(44, 40);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 97;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(1206, 8);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(40, 40);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 136;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(1252, 5);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(44, 40);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 82;
+            this.pictureBox6.TabStop = false;
+            // 
+            // btnSalir
+            // 
+            this.btnSalir.Image = ((System.Drawing.Image)(resources.GetObject("btnSalir.Image")));
+            this.btnSalir.Location = new System.Drawing.Point(1675, 13);
+            this.btnSalir.Margin = new System.Windows.Forms.Padding(4, 7, 4, 7);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(33, 33);
+            this.btnSalir.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnSalir.TabIndex = 81;
+            this.btnSalir.TabStop = false;
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Location = new System.Drawing.Point(728, 151);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(154, 23);
+            this.label26.TabIndex = 194;
+            this.label26.Text = "No Referencia:";
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.White;
+            this.textBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.Color.Black;
+            this.textBox1.Location = new System.Drawing.Point(884, 142);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(120, 32);
+            this.textBox1.TabIndex = 195;
+            this.textBox1.Text = "99207744";
+            // 
             // Consulta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Turquoise;
             this.ClientSize = new System.Drawing.Size(1303, 1102);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label26);
             this.Controls.Add(this.gbOpciones);
             this.Controls.Add(this.txtMotivo);
             this.Controls.Add(this.richTextBox1);
@@ -707,12 +733,12 @@
             this.Text = "Consulta";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.gbOpciones.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbEmpleado)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnSalir)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbEmpleado)).EndInit();
-            this.gbOpciones.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -775,5 +801,7 @@
         private System.Windows.Forms.Button btnBorrar;
         private System.Windows.Forms.Button btnActualizar;
         private System.Windows.Forms.Button btnAgregar;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

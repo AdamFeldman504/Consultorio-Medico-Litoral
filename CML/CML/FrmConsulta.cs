@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CML
 {
-    public partial class VerExpediente : Form
+    public partial class FrmConsulta : Form
     {
-        public VerExpediente()
+        public FrmConsulta()
         {
             InitializeComponent();
         }

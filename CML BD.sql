@@ -518,8 +518,10 @@ Fecha_Entrega date,
 Id_Puesto int,
 foreign key (Id_Puesto) references Puesto(Id_Puesto)
 )
-
+/*
 create table Incapacidad(
 Id_Entrega int identity(1,1) primary key not null,
 
 )
+
+*/

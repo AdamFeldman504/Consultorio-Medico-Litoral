@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CML
 {
-    public partial class Consulta : Form
+    public partial class FrmInventario : Form
     {
-        public Consulta()
+        public FrmInventario()
         {
             InitializeComponent();
         }
