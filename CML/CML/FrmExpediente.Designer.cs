@@ -30,18 +30,13 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmExpediente));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.btnSalir = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.gbIdentificacion = new System.Windows.Forms.GroupBox();
             this.label20 = new System.Windows.Forms.Label();
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
             this.textBox11 = new System.Windows.Forms.TextBox();
@@ -93,9 +88,6 @@
             this.cbxQuirurgicos = new System.Windows.Forms.CheckBox();
             this.txtEnActuales = new System.Windows.Forms.TextBox();
             this.cbxEnActuales = new System.Windows.Forms.CheckBox();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
             this.gbHeredoFamiliar = new System.Windows.Forms.GroupBox();
             this.txtInterrogados = new System.Windows.Forms.TextBox();
             this.cbxInterrogados = new System.Windows.Forms.CheckBox();
@@ -122,26 +114,29 @@
             this.txtDiabetes = new System.Windows.Forms.TextBox();
             this.cbxDiabetes = new System.Windows.Forms.CheckBox();
             this.label22 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.btnAgregar = new System.Windows.Forms.Button();
-            this.btnActualizar = new System.Windows.Forms.Button();
-            this.btnBorrar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnBorrar = new System.Windows.Forms.Button();
+            this.btnActualizar = new System.Windows.Forms.Button();
+            this.btnAgregar = new System.Windows.Forms.Button();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.btnSalir = new System.Windows.Forms.PictureBox();
+            this.label23 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnSalir)).BeginInit();
             this.gbIdentificacion.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.gbSexo.SuspendLayout();
             this.gbAntecedentes.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.gbHeredoFamiliar.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnSalir)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -159,27 +154,6 @@
             this.panel1.Size = new System.Drawing.Size(1308, 53);
             this.panel1.TabIndex = 91;
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(12, 5);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(44, 40);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 97;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(1206, 8);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(40, 40);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 136;
-            this.pictureBox1.TabStop = false;
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -190,28 +164,6 @@
             this.label4.Size = new System.Drawing.Size(204, 40);
             this.label4.TabIndex = 135;
             this.label4.Text = "EXPEDIENTE";
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(1252, 5);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(44, 40);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 82;
-            this.pictureBox6.TabStop = false;
-            // 
-            // btnSalir
-            // 
-            this.btnSalir.Image = ((System.Drawing.Image)(resources.GetObject("btnSalir.Image")));
-            this.btnSalir.Location = new System.Drawing.Point(1675, 13);
-            this.btnSalir.Margin = new System.Windows.Forms.Padding(4, 7, 4, 7);
-            this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(33, 33);
-            this.btnSalir.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.btnSalir.TabIndex = 81;
-            this.btnSalir.TabStop = false;
             // 
             // label1
             // 
@@ -305,14 +257,6 @@
             this.label19.Size = new System.Drawing.Size(145, 23);
             this.label19.TabIndex = 129;
             this.label19.Text = "No Identidad:";
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Location = new System.Drawing.Point(1082, 197);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(140, 117);
-            this.pictureBox4.TabIndex = 128;
-            this.pictureBox4.TabStop = false;
             // 
             // textBox10
             // 
@@ -668,6 +612,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.label23);
             this.groupBox1.Controls.Add(this.txtOtrosP);
             this.groupBox1.Controls.Add(this.cbxOtrosP);
             this.groupBox1.Controls.Add(this.txtAdicciones);
@@ -684,9 +629,6 @@
             this.groupBox1.Controls.Add(this.cbxQuirurgicos);
             this.groupBox1.Controls.Add(this.txtEnActuales);
             this.groupBox1.Controls.Add(this.cbxEnActuales);
-            this.groupBox1.Controls.Add(this.label21);
-            this.groupBox1.Controls.Add(this.label27);
-            this.groupBox1.Controls.Add(this.label28);
             this.groupBox1.Location = new System.Drawing.Point(10, 234);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(1254, 307);
@@ -870,36 +812,6 @@
             this.cbxEnActuales.Text = "Enfermedades Actuales";
             this.cbxEnActuales.UseVisualStyleBackColor = true;
             // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(12, 43);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(175, 23);
-            this.label21.TabIndex = 132;
-            this.label21.Text = "Marcar todas las";
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(12, 89);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(116, 23);
-            this.label27.TabIndex = 139;
-            this.label27.Text = "especificar";
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(12, 66);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(165, 23);
-            this.label28.TabIndex = 140;
-            this.label28.Text = "que apliquen y ";
-            // 
             // gbHeredoFamiliar
             // 
             this.gbHeredoFamiliar.Controls.Add(this.txtInterrogados);
@@ -927,9 +839,6 @@
             this.gbHeredoFamiliar.Controls.Add(this.txtDiabetes);
             this.gbHeredoFamiliar.Controls.Add(this.cbxDiabetes);
             this.gbHeredoFamiliar.Controls.Add(this.label22);
-            this.gbHeredoFamiliar.Controls.Add(this.label25);
-            this.gbHeredoFamiliar.Controls.Add(this.label23);
-            this.gbHeredoFamiliar.Controls.Add(this.label24);
             this.gbHeredoFamiliar.Location = new System.Drawing.Point(10, 19);
             this.gbHeredoFamiliar.Name = "gbHeredoFamiliar";
             this.gbHeredoFamiliar.Size = new System.Drawing.Size(1254, 209);
@@ -1203,43 +1112,12 @@
             // 
             // label22
             // 
-            this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(12, 43);
+            this.label22.Location = new System.Drawing.Point(6, 33);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(175, 23);
+            this.label22.Size = new System.Drawing.Size(175, 140);
             this.label22.TabIndex = 132;
-            this.label22.Text = "Marcar todas las";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(14, 112);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(170, 23);
-            this.label25.TabIndex = 141;
-            this.label25.Text = "la ha padecido.";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(12, 89);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(176, 23);
-            this.label23.TabIndex = 139;
-            this.label23.Text = "especificar quien";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(12, 66);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(165, 23);
-            this.label24.TabIndex = 140;
-            this.label24.Text = "que apliquen y ";
+            this.label22.Text = "Marcar todas las que apliquen y especificar quien la ha padecido.";
             // 
             // groupBox2
             // 
@@ -1255,25 +1133,15 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Opciones";
             // 
-            // btnAgregar
+            // btnEliminar
             // 
-            this.btnAgregar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregar.Location = new System.Drawing.Point(162, 23);
-            this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(216, 41);
-            this.btnAgregar.TabIndex = 134;
-            this.btnAgregar.Text = "Agregar";
-            this.btnAgregar.UseVisualStyleBackColor = true;
-            // 
-            // btnActualizar
-            // 
-            this.btnActualizar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnActualizar.Location = new System.Drawing.Point(413, 23);
-            this.btnActualizar.Name = "btnActualizar";
-            this.btnActualizar.Size = new System.Drawing.Size(216, 41);
-            this.btnActualizar.TabIndex = 135;
-            this.btnActualizar.Text = "Actualizar";
-            this.btnActualizar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminar.Location = new System.Drawing.Point(938, 23);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(216, 41);
+            this.btnEliminar.TabIndex = 137;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = true;
             // 
             // btnBorrar
             // 
@@ -1285,15 +1153,85 @@
             this.btnBorrar.Text = "Borrar";
             this.btnBorrar.UseVisualStyleBackColor = true;
             // 
-            // btnEliminar
+            // btnActualizar
             // 
-            this.btnEliminar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminar.Location = new System.Drawing.Point(938, 23);
-            this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(216, 41);
-            this.btnEliminar.TabIndex = 137;
-            this.btnEliminar.Text = "Eliminar";
-            this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnActualizar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnActualizar.Location = new System.Drawing.Point(413, 23);
+            this.btnActualizar.Name = "btnActualizar";
+            this.btnActualizar.Size = new System.Drawing.Size(216, 41);
+            this.btnActualizar.TabIndex = 135;
+            this.btnActualizar.Text = "Actualizar";
+            this.btnActualizar.UseVisualStyleBackColor = true;
+            // 
+            // btnAgregar
+            // 
+            this.btnAgregar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregar.Location = new System.Drawing.Point(162, 23);
+            this.btnAgregar.Name = "btnAgregar";
+            this.btnAgregar.Size = new System.Drawing.Size(216, 41);
+            this.btnAgregar.TabIndex = 134;
+            this.btnAgregar.Text = "Agregar";
+            this.btnAgregar.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Location = new System.Drawing.Point(1082, 197);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(140, 117);
+            this.pictureBox4.TabIndex = 128;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(12, 5);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(44, 40);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 97;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(1206, 8);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(40, 40);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 136;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(1252, 5);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(44, 40);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 82;
+            this.pictureBox6.TabStop = false;
+            // 
+            // btnSalir
+            // 
+            this.btnSalir.Image = ((System.Drawing.Image)(resources.GetObject("btnSalir.Image")));
+            this.btnSalir.Location = new System.Drawing.Point(1675, 13);
+            this.btnSalir.Margin = new System.Windows.Forms.Padding(4, 7, 4, 7);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(33, 33);
+            this.btnSalir.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnSalir.TabIndex = 81;
+            this.btnSalir.TabStop = false;
+            // 
+            // label23
+            // 
+            this.label23.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Location = new System.Drawing.Point(12, 29);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(175, 140);
+            this.label23.TabIndex = 169;
+            this.label23.Text = "Marcar todas las que apliquen y especificar.";
             // 
             // FrmExpediente
             // 
@@ -1315,13 +1253,8 @@
             this.Text = "FrmExpediente";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnSalir)).EndInit();
             this.gbIdentificacion.ResumeLayout(false);
             this.gbIdentificacion.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.gbSexo.ResumeLayout(false);
             this.gbSexo.PerformLayout();
             this.gbAntecedentes.ResumeLayout(false);
@@ -1330,6 +1263,11 @@
             this.gbHeredoFamiliar.ResumeLayout(false);
             this.gbHeredoFamiliar.PerformLayout();
             this.groupBox2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnSalir)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1390,9 +1328,6 @@
         private System.Windows.Forms.TextBox txtDiabetes;
         private System.Windows.Forms.CheckBox cbxDiabetes;
         private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label24;
         private System.Windows.Forms.TextBox txtCardiopatia;
         private System.Windows.Forms.TextBox txtHipertension;
         private System.Windows.Forms.TextBox txtMentales;
@@ -1424,9 +1359,6 @@
         private System.Windows.Forms.CheckBox cbxQuirurgicos;
         private System.Windows.Forms.TextBox txtEnActuales;
         private System.Windows.Forms.CheckBox cbxEnActuales;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Label label28;
         private System.Windows.Forms.TextBox txtOtrosP;
         private System.Windows.Forms.CheckBox cbxOtrosP;
         private System.Windows.Forms.TextBox txtAdicciones;
@@ -1438,5 +1370,6 @@
         private System.Windows.Forms.Button btnActualizar;
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Button btnEliminar;
+        private System.Windows.Forms.Label label23;
     }
 }
