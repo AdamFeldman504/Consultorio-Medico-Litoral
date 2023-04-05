@@ -21,5 +21,17 @@ namespace CML
         {
 
         }
+
+        private void btnMinimizar_Click(object sender, EventArgs e)
+        {
+            this.WindowState= FormWindowState.Minimized;
+        }
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            FrmMenu frmMenu = new FrmMenu();
+            this.Hide();
+            frmMenu.Show();
+        }
     }
 }

@@ -32,13 +32,15 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMenu));
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnMinimizar = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.btnCerrar = new System.Windows.Forms.PictureBox();
             this.btnSalir = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btnExpediente = new System.Windows.Forms.Button();
             this.btnReportes = new System.Windows.Forms.Button();
+            this.btnEntregaMeds = new System.Windows.Forms.Button();
+            this.btnExpediente = new System.Windows.Forms.Button();
+            this.btnIncapacidad = new System.Windows.Forms.Button();
             this.btnInventario = new System.Windows.Forms.Button();
             this.btnBitacora = new System.Windows.Forms.Button();
             this.btnConsulta = new System.Windows.Forms.Button();
@@ -47,12 +49,10 @@
             this.lblFecha = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnSalir)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
@@ -62,9 +62,9 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.LightSeaGreen;
             this.panel1.Controls.Add(this.pictureBox2);
-            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Controls.Add(this.btnMinimizar);
             this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.pictureBox6);
+            this.panel1.Controls.Add(this.btnCerrar);
             this.panel1.Controls.Add(this.btnSalir);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -83,16 +83,17 @@
             this.pictureBox2.TabIndex = 111;
             this.pictureBox2.TabStop = false;
             // 
-            // pictureBox1
+            // btnMinimizar
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(968, 5);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(30, 30);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 136;
-            this.pictureBox1.TabStop = false;
+            this.btnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMinimizar.Image")));
+            this.btnMinimizar.Location = new System.Drawing.Point(968, 5);
+            this.btnMinimizar.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.btnMinimizar.Name = "btnMinimizar";
+            this.btnMinimizar.Size = new System.Drawing.Size(30, 30);
+            this.btnMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnMinimizar.TabIndex = 136;
+            this.btnMinimizar.TabStop = false;
+            this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
             // 
             // label4
             // 
@@ -105,16 +106,17 @@
             this.label4.TabIndex = 135;
             this.label4.Text = "MENU";
             // 
-            // pictureBox6
+            // btnCerrar
             // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(1004, 5);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(30, 30);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 82;
-            this.pictureBox6.TabStop = false;
+            this.btnCerrar.Image = ((System.Drawing.Image)(resources.GetObject("btnCerrar.Image")));
+            this.btnCerrar.Location = new System.Drawing.Point(1004, 5);
+            this.btnCerrar.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.btnCerrar.Name = "btnCerrar";
+            this.btnCerrar.Size = new System.Drawing.Size(30, 30);
+            this.btnCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnCerrar.TabIndex = 82;
+            this.btnCerrar.TabStop = false;
+            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
             // btnSalir
             // 
@@ -129,10 +131,10 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.btnExpediente);
             this.groupBox1.Controls.Add(this.btnReportes);
+            this.groupBox1.Controls.Add(this.btnEntregaMeds);
+            this.groupBox1.Controls.Add(this.btnExpediente);
+            this.groupBox1.Controls.Add(this.btnIncapacidad);
             this.groupBox1.Controls.Add(this.btnInventario);
             this.groupBox1.Controls.Add(this.btnBitacora);
             this.groupBox1.Controls.Add(this.btnConsulta);
@@ -142,6 +144,38 @@
             this.groupBox1.Size = new System.Drawing.Size(990, 278);
             this.groupBox1.TabIndex = 106;
             this.groupBox1.TabStop = false;
+            // 
+            // btnReportes
+            // 
+            this.btnReportes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReportes.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReportes.ForeColor = System.Drawing.Color.White;
+            this.btnReportes.Image = ((System.Drawing.Image)(resources.GetObject("btnReportes.Image")));
+            this.btnReportes.Location = new System.Drawing.Point(763, 21);
+            this.btnReportes.Name = "btnReportes";
+            this.btnReportes.Size = new System.Drawing.Size(183, 97);
+            this.btnReportes.TabIndex = 112;
+            this.btnReportes.Text = "Reportes";
+            this.btnReportes.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnReportes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnReportes.UseVisualStyleBackColor = false;
+            this.btnReportes.Click += new System.EventHandler(this.btnReportes_Click);
+            // 
+            // btnEntregaMeds
+            // 
+            this.btnEntregaMeds.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEntregaMeds.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEntregaMeds.ForeColor = System.Drawing.Color.White;
+            this.btnEntregaMeds.Image = ((System.Drawing.Image)(resources.GetObject("btnEntregaMeds.Image")));
+            this.btnEntregaMeds.Location = new System.Drawing.Point(295, 145);
+            this.btnEntregaMeds.Name = "btnEntregaMeds";
+            this.btnEntregaMeds.Size = new System.Drawing.Size(183, 97);
+            this.btnEntregaMeds.TabIndex = 111;
+            this.btnEntregaMeds.Text = "Entrega Meds";
+            this.btnEntregaMeds.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnEntregaMeds.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnEntregaMeds.UseVisualStyleBackColor = false;
+            this.btnEntregaMeds.Click += new System.EventHandler(this.btnEntregaMeds_Click);
             // 
             // btnExpediente
             // 
@@ -157,26 +191,28 @@
             this.btnExpediente.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnExpediente.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnExpediente.UseVisualStyleBackColor = false;
+            this.btnExpediente.Click += new System.EventHandler(this.btnExpediente_Click);
             // 
-            // btnReportes
+            // btnIncapacidad
             // 
-            this.btnReportes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReportes.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReportes.ForeColor = System.Drawing.Color.White;
-            this.btnReportes.Image = ((System.Drawing.Image)(resources.GetObject("btnReportes.Image")));
-            this.btnReportes.Location = new System.Drawing.Point(537, 145);
-            this.btnReportes.Name = "btnReportes";
-            this.btnReportes.Size = new System.Drawing.Size(183, 97);
-            this.btnReportes.TabIndex = 109;
-            this.btnReportes.Text = "Incapacidad";
-            this.btnReportes.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnReportes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnReportes.UseVisualStyleBackColor = false;
+            this.btnIncapacidad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnIncapacidad.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIncapacidad.ForeColor = System.Drawing.Color.White;
+            this.btnIncapacidad.Image = ((System.Drawing.Image)(resources.GetObject("btnIncapacidad.Image")));
+            this.btnIncapacidad.Location = new System.Drawing.Point(537, 145);
+            this.btnIncapacidad.Name = "btnIncapacidad";
+            this.btnIncapacidad.Size = new System.Drawing.Size(183, 97);
+            this.btnIncapacidad.TabIndex = 109;
+            this.btnIncapacidad.Text = "Incapacidad";
+            this.btnIncapacidad.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnIncapacidad.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnIncapacidad.UseVisualStyleBackColor = false;
+            this.btnIncapacidad.Click += new System.EventHandler(this.btnIncapacidad_Click);
             // 
             // btnInventario
             // 
             this.btnInventario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnInventario.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInventario.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInventario.ForeColor = System.Drawing.Color.White;
             this.btnInventario.Image = ((System.Drawing.Image)(resources.GetObject("btnInventario.Image")));
             this.btnInventario.Location = new System.Drawing.Point(51, 145);
@@ -187,6 +223,7 @@
             this.btnInventario.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnInventario.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnInventario.UseVisualStyleBackColor = false;
+            this.btnInventario.Click += new System.EventHandler(this.btnInventario_Click);
             // 
             // btnBitacora
             // 
@@ -202,6 +239,7 @@
             this.btnBitacora.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnBitacora.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnBitacora.UseVisualStyleBackColor = false;
+            this.btnBitacora.Click += new System.EventHandler(this.btnBitacora_Click);
             // 
             // btnConsulta
             // 
@@ -217,6 +255,7 @@
             this.btnConsulta.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnConsulta.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnConsulta.UseVisualStyleBackColor = false;
+            this.btnConsulta.Click += new System.EventHandler(this.btnConsulta_Click);
             // 
             // btnUsuarios
             // 
@@ -232,6 +271,7 @@
             this.btnUsuarios.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnUsuarios.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnUsuarios.UseVisualStyleBackColor = false;
+            this.btnUsuarios.Click += new System.EventHandler(this.btnUsuarios_Click);
             // 
             // lblHora
             // 
@@ -274,36 +314,6 @@
             this.label1.TabIndex = 109;
             this.label1.Text = "CONSULTORIO MEDICO LITORAL";
             // 
-            // button1
-            // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(295, 145);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(183, 97);
-            this.button1.TabIndex = 111;
-            this.button1.Text = "Entrega Meds";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(763, 21);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(183, 97);
-            this.button2.TabIndex = 112;
-            this.button2.Text = "Reportes";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button2.UseVisualStyleBackColor = false;
-            // 
             // FrmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -317,12 +327,13 @@
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmMenu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnSalir)).EndInit();
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
@@ -334,23 +345,23 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox btnMinimizar;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox btnCerrar;
         private System.Windows.Forms.PictureBox btnSalir;
         private System.Windows.Forms.Button btnUsuarios;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox lblHora;
         private System.Windows.Forms.TextBox lblFecha;
         private System.Windows.Forms.Button btnExpediente;
-        private System.Windows.Forms.Button btnReportes;
+        private System.Windows.Forms.Button btnIncapacidad;
         private System.Windows.Forms.Button btnInventario;
         private System.Windows.Forms.Button btnBitacora;
         private System.Windows.Forms.Button btnConsulta;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnEntregaMeds;
         private System.Windows.Forms.BindingSource bindingSource1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnReportes;
     }
 }
