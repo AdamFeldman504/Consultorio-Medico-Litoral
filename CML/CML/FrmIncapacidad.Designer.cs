@@ -138,7 +138,7 @@
             this.txtCodigo.BackColor = System.Drawing.Color.White;
             this.txtCodigo.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCodigo.ForeColor = System.Drawing.Color.Black;
-            this.txtCodigo.Location = new System.Drawing.Point(97, 74);
+            this.txtCodigo.Location = new System.Drawing.Point(102, 74);
             this.txtCodigo.Margin = new System.Windows.Forms.Padding(4);
             this.txtCodigo.Name = "txtCodigo";
             this.txtCodigo.Size = new System.Drawing.Size(91, 32);
@@ -169,7 +169,7 @@
             this.txtNombre.BackColor = System.Drawing.Color.White;
             this.txtNombre.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNombre.ForeColor = System.Drawing.Color.Black;
-            this.txtNombre.Location = new System.Drawing.Point(415, 74);
+            this.txtNombre.Location = new System.Drawing.Point(420, 74);
             this.txtNombre.Margin = new System.Windows.Forms.Padding(4);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(300, 32);
@@ -200,10 +200,10 @@
             this.btnActualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnActualizar.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnActualizar.ForeColor = System.Drawing.Color.Black;
-            this.btnActualizar.Location = new System.Drawing.Point(142, 41);
+            this.btnActualizar.Location = new System.Drawing.Point(128, 41);
             this.btnActualizar.Margin = new System.Windows.Forms.Padding(4);
             this.btnActualizar.Name = "btnActualizar";
-            this.btnActualizar.Size = new System.Drawing.Size(103, 48);
+            this.btnActualizar.Size = new System.Drawing.Size(117, 48);
             this.btnActualizar.TabIndex = 15;
             this.btnActualizar.Text = "Actualizar";
             this.btnActualizar.UseVisualStyleBackColor = false;
@@ -257,7 +257,7 @@
             // 
             this.cmbArea.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbArea.FormattingEnabled = true;
-            this.cmbArea.Location = new System.Drawing.Point(97, 126);
+            this.cmbArea.Location = new System.Drawing.Point(99, 126);
             this.cmbArea.Name = "cmbArea";
             this.cmbArea.Size = new System.Drawing.Size(143, 29);
             this.cmbArea.TabIndex = 186;
@@ -287,7 +287,7 @@
             this.txtDias.BackColor = System.Drawing.Color.White;
             this.txtDias.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDias.ForeColor = System.Drawing.Color.Black;
-            this.txtDias.Location = new System.Drawing.Point(308, 126);
+            this.txtDias.Location = new System.Drawing.Point(310, 126);
             this.txtDias.Margin = new System.Windows.Forms.Padding(4);
             this.txtDias.Name = "txtDias";
             this.txtDias.Size = new System.Drawing.Size(80, 32);
@@ -308,7 +308,7 @@
             this.txtMotivo.BackColor = System.Drawing.Color.White;
             this.txtMotivo.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMotivo.ForeColor = System.Drawing.Color.Black;
-            this.txtMotivo.Location = new System.Drawing.Point(97, 173);
+            this.txtMotivo.Location = new System.Drawing.Point(100, 173);
             this.txtMotivo.Margin = new System.Windows.Forms.Padding(4);
             this.txtMotivo.Name = "txtMotivo";
             this.txtMotivo.Size = new System.Drawing.Size(618, 32);
@@ -338,7 +338,7 @@
             // 
             this.dtpFecha.CalendarFont = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpFecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpFecha.Location = new System.Drawing.Point(478, 130);
+            this.dtpFecha.Location = new System.Drawing.Point(480, 130);
             this.dtpFecha.Name = "dtpFecha";
             this.dtpFecha.Size = new System.Drawing.Size(314, 27);
             this.dtpFecha.TabIndex = 195;

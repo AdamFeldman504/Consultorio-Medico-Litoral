@@ -135,7 +135,7 @@
             // 
             this.dtpFecha.CalendarFont = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpFecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpFecha.Location = new System.Drawing.Point(251, 87);
+            this.dtpFecha.Location = new System.Drawing.Point(258, 87);
             this.dtpFecha.Name = "dtpFecha";
             this.dtpFecha.Size = new System.Drawing.Size(314, 27);
             this.dtpFecha.TabIndex = 184;
@@ -165,7 +165,7 @@
             this.txtCantidad.BackColor = System.Drawing.Color.White;
             this.txtCantidad.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCantidad.ForeColor = System.Drawing.Color.Black;
-            this.txtCantidad.Location = new System.Drawing.Point(252, 203);
+            this.txtCantidad.Location = new System.Drawing.Point(259, 203);
             this.txtCantidad.Margin = new System.Windows.Forms.Padding(4);
             this.txtCantidad.Name = "txtCantidad";
             this.txtCantidad.Size = new System.Drawing.Size(313, 32);
@@ -196,10 +196,10 @@
             this.btnActualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnActualizar.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnActualizar.ForeColor = System.Drawing.Color.Black;
-            this.btnActualizar.Location = new System.Drawing.Point(142, 41);
+            this.btnActualizar.Location = new System.Drawing.Point(128, 41);
             this.btnActualizar.Margin = new System.Windows.Forms.Padding(4);
             this.btnActualizar.Name = "btnActualizar";
-            this.btnActualizar.Size = new System.Drawing.Size(103, 48);
+            this.btnActualizar.Size = new System.Drawing.Size(117, 48);
             this.btnActualizar.TabIndex = 15;
             this.btnActualizar.Text = "Actualizar";
             this.btnActualizar.UseVisualStyleBackColor = false;
@@ -254,7 +254,7 @@
             this.txtProducto.BackColor = System.Drawing.Color.White;
             this.txtProducto.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtProducto.ForeColor = System.Drawing.Color.Black;
-            this.txtProducto.Location = new System.Drawing.Point(252, 128);
+            this.txtProducto.Location = new System.Drawing.Point(259, 128);
             this.txtProducto.Margin = new System.Windows.Forms.Padding(4);
             this.txtProducto.Name = "txtProducto";
             this.txtProducto.Size = new System.Drawing.Size(313, 32);
@@ -275,7 +275,7 @@
             this.txtEmpleado.BackColor = System.Drawing.Color.White;
             this.txtEmpleado.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEmpleado.ForeColor = System.Drawing.Color.Black;
-            this.txtEmpleado.Location = new System.Drawing.Point(252, 166);
+            this.txtEmpleado.Location = new System.Drawing.Point(259, 166);
             this.txtEmpleado.Margin = new System.Windows.Forms.Padding(4);
             this.txtEmpleado.Name = "txtEmpleado";
             this.txtEmpleado.Size = new System.Drawing.Size(313, 32);
@@ -305,7 +305,7 @@
             // 
             this.cmbArea.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbArea.FormattingEnabled = true;
-            this.cmbArea.Location = new System.Drawing.Point(252, 242);
+            this.cmbArea.Location = new System.Drawing.Point(259, 242);
             this.cmbArea.Name = "cmbArea";
             this.cmbArea.Size = new System.Drawing.Size(313, 29);
             this.cmbArea.TabIndex = 190;
